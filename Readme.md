@@ -3,6 +3,7 @@ Captured
 
 * [PortSwigger’s Burp Suite](https://portswigger.net/burp)
 * [AcuMonitor](https://www.acunetix.com/vulnerability-scanner/acumonitor-technology/)
+* [Robtex](https://www.robtex.com/en/advisory/dns/net/cloudfront/d3dsacqprgcsqh/#shared_pa_ma)
 * Clone any website via wget `wget -mk https://example.com`
 
 
@@ -17,7 +18,17 @@ False / Positives
 
 Migration
 ----------
+
+#### Server
 If you must use the host header as a mechanism for identifying the location of the web server, it’s highly advised to make use of a whitelist of allowed hostnames.
+
+
+#### Tor
+[Meek](https://trac.torproject.org/projects/tor/wiki/doc/AChildsGardenOfPluggableTransports#meek) can be used to send a message to a Tor relay in a way that is almost impossible to block. 
+
+* [Amazon CloudFront](https://trac.torproject.org/projects/tor/wiki/doc/meek#AmazonCloudFront) (meek-amazon)
+* [Microsoft Azure](https://trac.torproject.org/projects/tor/wiki/doc/meek#MicrosoftAzure) (meek-azure)
+
 
 
 Web-cache poisoning
