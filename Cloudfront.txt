@@ -8235,6 +8235,7 @@ c.stocksy.com
 cybersecurityjobsite-edge.madgexhosting.net
 danj.spiderlink.com
 dartscdn.livewallcampaigns.com
+d3dsacqprgcsqh.cloudfront.net
 deportesrcn-cdn.4cloud.co
 deutschebahn-api.ldn.hogarthww.digital
 dev.3docean.net
